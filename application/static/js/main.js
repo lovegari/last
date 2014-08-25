@@ -1,6 +1,6 @@
 $(function() {
     var pusher = new Pusher(PUSHER_KEY),
-        testChannel =pusher.subscribe('test_channel'),
+        testChannel =pusher.subscribe('Main'),
         $messages = $('.messages'),
         $inputMessage = $('.inputMessage'),
         chatPage = $('.chat.page');
