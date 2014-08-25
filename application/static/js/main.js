@@ -5,17 +5,6 @@ $(function() {
         $inputMessage = $('.inputMessage'),
         chatPage = $('.chat.page');
 
-    /*
-    //$.post는 아래의 형태와 같습니다.
-    $.ajax({
-      type: "POST",
-      url: url,
-      data: data,
-      success: success,
-      dataType: dataType
-    });
-    */
-
     var initial_delay = 1500;
     setTimeout(function () {
         addChatMessage({'username':'user1', 'message':'hello?'});
