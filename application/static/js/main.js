@@ -5,6 +5,16 @@ $(function() {
         $inputMessage = $('.inputMessage'),
         chatPage = $('.chat.page');
 
+    /*
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: data,
+      success: success,
+      dataType: dataType
+    });
+    */
+
     var initial_delay = 1500;
     setTimeout(function () {
         addChatMessage({'username':'user1', 'message':'hello?'});
